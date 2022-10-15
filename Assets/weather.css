@@ -21,7 +21,7 @@
    */
   
   body {
-    margin: 0;
+    margin: 5px;
   }
   
   /**
@@ -347,3 +347,34 @@
   [hidden] {
     display: none;
   }
+
+ 
+
+  #weatherHeading {
+    position: relative;
+    text-align: center;
+  }
+
+#today {
+  position: relative;
+  text-align: center;
+  max-width: 50%;
+  max-height: fit-content;
+  border: 1px solid;
+  height: 350px;
+  left: 500px;
+}
+
+#forecast {
+  position: relative;
+  text-align: center;
+  max-width: 15%;
+  max-height: fit-content;
+  border: 1px solid;
+  height: 150px;
+  left: 500px;
+}
+
+#conatinerForecast {
+  flex-direction: row;
+}
